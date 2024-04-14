@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/42/6c/e9/426ce9a52f3b540cad0e2ee43d46bbb5.gif');
+}
+.container
+{
+    background-color: skyblue;
+    border: 3px dashed navy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    background-color: lightcoral;
+    height: 25px;
+}
+button{
+    background-color: orangered;
+    border: 0;
+    padding: 5px;
+    color: white;
+}
+p{
+    line-height: 2;
+}
